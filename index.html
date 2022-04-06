@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Carousel</title>
+        <link href="style.css" rel="stylesheet" />
+        <script src="carousel.js"></script>
+    </head>
+
+    <body>
+        <!--html to display the pictures -->
+        <div class="carousel">
+            <img src="pix3/birds01.png" alt="" id="bigpic" />
+            <div class="thumbs">
+                <img src="pix3/LeftArrow.png" alt="Previous" onclick="calcslide(-1)" />
+                <img src="pix3/birds01.png" alt="" onclick="showbig(this.src)" />
+                <img src="pix3/birds02.png" alt="" onclick="showbig(this.src)" />
+                <img src="pix3/birds03.png" alt="" onclick="showbig(this.src)" />
+                <img src="pix3/birds04.png" alt="" onclick="showbig(this.src)" />
+                <img src="pix3/birds05.png" alt="" onclick="showbig(this.src)" />
+                <img src="pix3/RightArrow.png" alt="Next" onclick="calcslide(1)" />
+            </div>
+            <!-- End thumbs-->
+        </div>
+        <!-- End carousel -->
+    </body>
+
+</html>
