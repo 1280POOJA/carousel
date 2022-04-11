@@ -31,7 +31,7 @@ function calcslide(x) {
     //create two-digit string from number ( leading zero if less than 10).
     var twodigitnum = ('0' + nextnum).slice(-2);
     //create new file name from two-digit number string.
-    var showimg = startpath + twodigit + extension;
+    var showimg = startpath + twodigitnum + extension;
     showbig(showimg) 
 }
 
